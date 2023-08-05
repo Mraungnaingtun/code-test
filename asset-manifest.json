@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.43d1cc6d.css",
+    "main.js": "/my-portfolio/static/js/main.c54b4eb2.js",
+    "static/js/787.ac71a661.chunk.js": "/my-portfolio/static/js/787.ac71a661.chunk.js",
+    "static/media/15740.png": "/my-portfolio/static/media/15740.16dd696a016309aa1d34.png",
+    "static/media/case-study-trip-pro-our-challenges.png": "/my-portfolio/static/media/case-study-trip-pro-our-challenges.4651d256b24000a39c37.png",
+    "static/media/devwp.visibleone.net_tripprohk_.png": "/my-portfolio/static/media/devwp.visibleone.net_tripprohk_.6732b22d3e8de4f45b8d.png",
+    "static/media/Tablet.png": "/my-portfolio/static/media/Tablet.6ebbf8128e192cd4c344.png",
+    "static/media/Laptop.png": "/my-portfolio/static/media/Laptop.480d00fa03c72eb1896e.png",
+    "static/media/responsive.svg": "/my-portfolio/static/media/responsive.2d741f1ceadc471a02accd6eedb2d9a8.svg",
+    "static/media/shopping-cart.svg": "/my-portfolio/static/media/shopping-cart.cbcab65794abc5a43bf32deacf7b1ed1.svg",
+    "static/media/wordpress-development-logo-banner.svg": "/my-portfolio/static/media/wordpress-development-logo-banner.4d8573bac6d35ae593fd8f9f83e7c607.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.43d1cc6d.css.map": "/my-portfolio/static/css/main.43d1cc6d.css.map",
+    "main.c54b4eb2.js.map": "/my-portfolio/static/js/main.c54b4eb2.js.map",
+    "787.ac71a661.chunk.js.map": "/my-portfolio/static/js/787.ac71a661.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43d1cc6d.css",
+    "static/js/main.c54b4eb2.js"
+  ]
+}
