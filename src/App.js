@@ -1,14 +1,18 @@
 import './App.css';
-// import ApiList from './components/integrated_list_from_api'
+import ApiList from './components/ApiList/ApiList';
 import FirstHeader from './components/Header/Header';
-import Home from './components/Home/Home';
+import NewHome from './components/Home/NewHome';
+import AboutTirppro from './components/About/AboutTirppro';
+import Box from '@mui/material/Box';
+
 function App() {
   return (
-    <div className='App'>
+    <Box className='App'>
       <FirstHeader/>
-      <Home/>
-      {/* <ApiList/> */}
-    </div>
+      <NewHome/>
+      <AboutTirppro/>
+      <ApiList />
+    </Box>
   );
 }
 

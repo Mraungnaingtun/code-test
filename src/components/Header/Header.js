@@ -17,6 +17,7 @@ import { UilWhatsapp } from '@iconscout/react-unicons';
 import { UilEnvelopeAlt } from '@iconscout/react-unicons';
 import { UilFileAlt } from '@iconscout/react-unicons'
 import { UilAngleDown } from '@iconscout/react-unicons'
+import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 
 const pages = ['Home', 'Servies', 'Company', 'Blog', 'Contant Us'];
 
@@ -40,7 +41,10 @@ function FirstHeader() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     height: '35px',
-                    px: 50,
+                    px:{
+                        lg:25,
+                        md:5
+                    },
                     backgroundColor: '#f0f0f0',
                     boxShadow: 'none',
                 }}>
@@ -123,7 +127,10 @@ function FirstHeader() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     height: '40px',
-                    px: 50,
+                    px:{
+                        lg:25,
+                        md:5
+                    },
                     backgroundColor: '#ffffff',
                     boxShadow: 'none'
                 }}>
@@ -193,39 +200,50 @@ function FirstHeader() {
                             sx={{
                                 flexGrow: 1,
                                 display: { xs: 'none', md: 'flex' },
-                                justifyContent: 'right'
+                                justifyContent: 'right',
+                                alignItems:'center',
+                                height: '35px',
 
                             }}>
                             <Button
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, display: 'block' }}
                             >
-                                Home
+                               <Typography sx={{display:'flex', justifyContent:'center'}} variant="caption" color="black">Home</Typography>
+                            </Button>
+                            {/* -------- Servies Menu --------- */}
+                            <Button 
+                            endIcon={<ArrowDropDownOutlinedIcon />}
+                            sx={{
+                                color: 'black',
+                              }}
+                             >
+                                <Typography sx={{display:'flex', justifyContent:'center'}} variant="caption">Servies</Typography>
+                            </Button>
+                            {/* -------- Company Menu --------- */}
+                            <Button 
+                            endIcon={<ArrowDropDownOutlinedIcon />}
+                            sx={{
+                                color: 'black',
+                              }}
+                             >
+                            <Typography sx={{display:'flex', justifyContent:'center'}} variant="caption">Company</Typography>
+                            </Button>
+                            <Button
+                                onClick={handleCloseNavMenu}
+                                sx={{ my: 2, display: 'block' }}
+                            >
+                               <Typography  sx={{display:'flex', justifyContent:'center'}} variant="caption" color='black'>Blog</Typography>
                             </Button>
 
-                            <Button
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, display: 'block' }}
-                            >
-                                Servies
-                            </Button>
-                            <Button
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, display: 'block' }}
-                            >
-                                Company
-                            </Button>
-                            <Button
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, display: 'block' }}
-                            >
-                                Blog
-                            </Button>
-                            <Button
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, display: 'block' }}
-                            >
-                                Contant Us
+                            {/* -------- Contant Us --------- */}
+                            <Button 
+                            endIcon={<ArrowDropDownOutlinedIcon />}
+                            sx={{
+                                color: 'black',
+                              }}
+                             >
+                            <Typography sx={{display:'flex', justifyContent:'center'}}variant="caption">Contant Us</Typography>
                             </Button>
                         </Box>
 

@@ -1,0 +1,33 @@
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 1s ease, transform 1s ease; /* Increase the duration to 1 second */
+  }
+  
+  .zoom-in.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* ------------------------------------------------------- */
+  .zoom-in-from-left {
+    opacity: 0;
+    transform: translateX(-100%); /* Move the component outside the viewport on the left */
+    transition: opacity 1s ease, transform 1s ease; /* Increase the duration to 1 second */
+  }
+  
+  .zoom-in-from-left.visible {
+    opacity: 1;
+    transform: translateX(0); /* Bring the component back to its original position (left-in) */
+  }
+  
+  .slow-appear {
+    opacity: 0;
+    transition: opacity 2s ease; /* Set the transition duration to 2 seconds for a slower appear */
+  }
+  
+  .slow-appear.visible {
+    opacity: 1;
+  }
+  
+  
